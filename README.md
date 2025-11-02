@@ -17,4 +17,4 @@ Ethernaut King解題思路
 
 在receive()可以發現我們寫了revert，代表經過receive之後都會被退回，用意是如果有其他挑戰者現在的王(我們)，就算prize數量大於我們，都會被revert，所以king永遠都會是我們
 
-這是經典的區塊鏈拒絕服務 (Denial of Service, DoS)攻擊。
+Tips:這是經典的區塊鏈拒絕服務 (Denial of Service, DoS)攻擊。
